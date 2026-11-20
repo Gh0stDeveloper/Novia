@@ -1,47 +1,29 @@
-# 💖 Novia 💖
+# Novia
 
-This project is an interactive page created for a romantic proposal. Upon loading, the page asks the question, **"Will you be my girlfriend?"** with two answer options: **Yes** and **No**.
+### Interactive romantic webpage
+
+A small HTML, CSS and JavaScript project featuring a romantic question, animated visuals and interactive response buttons.
 
 ## Features
 
-- Animated romantic GIFs.
-- Interactive buttons that change positions on click.
-- Personalized messages based on the selected option.
-- Floating hearts generated randomly on the screen.
+- Animated GIFs and floating-heart effects.
+- Interactive Yes/No response buttons.
+- Customized messages for each response.
+- Lightweight, browser-based operation.
 
-## Project Structure
+## Run
 
-- `index.html`: Contains the structure of the romantic proposal page.
-- `styles.css`: Styles and animations for the page design.
-- `script.js`: Logic for button interaction and floating heart animations.
+```bash
+git clone https://github.com/Gh0stDeveloper/Novia.git
+cd Novia
+```
 
-## How to Use
+Open `index.html` in a browser. No dedicated backend is required.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/CHICO-CP/Novia.git
-   ```
- 2. Open the index.html file in your browser to view the page.
+## Technology
 
+HTML · CSS · JavaScript
 
+---
 
-## Interactivity
-
-The script.js file manages the main logic for button click events and heart animation:
-
-"Yes" Button: Displays a romantic message and changes the GIFs.
-
-"No" Button: Switches positions with the "Yes" button and does not display a message.
-
-Animated hearts: They are generated automatically and disappear after 5 seconds.
-
-
-## Technologies
-
-HTML
-CSS
-JavaScript
-
-## License
-
-All rights reserved © 2024 @DevPhant0m @CHICO-CP
+**An interactive front-end experiment.**
